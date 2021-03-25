@@ -10,7 +10,6 @@ function nestedTarget() {
 
 function increaseRankBy(n) {
   let a = document
-    .getElementByID("app")
     .querySelectorAll("ul.ranked-list li");
     
   for (let i = 0; i < a.length; i++) {
